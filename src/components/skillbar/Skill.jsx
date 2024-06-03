@@ -10,10 +10,9 @@ const Skill = () => {
                 <div className="about_info" >
                     <p className="about_desc">
                         Gulshan Kumar | MERN Stack Developer <br/>
-                        I am a skilled MERN Stack Developer with a strong background in building dynamic and 
-                        responsive web applications. Proficient in MongoDB, Express.js, React.js, and Node.js, 
-                        I excel at creating full-stack solutions that are both scalable and efficient. With a keen 
-                        eye for detail and a passion for coding, I deliver robust applications tailored to meet client needs. </p>
+                        I am a proficient MERN Stack Developer with expertise in MongoDB, Express.js, React.js, and Node.js.
+                        I specialize in building dynamic, responsive web applications. My passion for coding and attention to 
+                        detail ensures the delivery of robust, scalable solutions tailored to meet client needs. </p>
                     <a href="https://app.luminpdf.com/viewer/65e84f6e780982105b2a6b14"> <motion.button whileHover={{background:"white"}}>⏫DOWNLOAD CV</motion.button></a>
                 </div>
 
