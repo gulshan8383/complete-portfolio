@@ -9,11 +9,11 @@ const Skill = () => {
             <div className="about_data grid">
                 <div className="about_info" >
                     <p className="about_desc">
-                       <p className=""> Gulshan Kumar | MERN Stack</p><br/>
-                        I am a proficient MERN Stack Developer with expertise in MongoDB, Express.js, React.js, and Node.js.
-                        I specialize in building dynamic, responsive web applications. My passion for coding and attention to 
-                        detail ensures the delivery of robust, scalable solutions tailored to meet client needs. </p>
-                    <a href="https://app.luminpdf.com/viewer/65e84f6e780982105b2a6b14"> <motion.button whileHover={{background:"white"}}>⏫DOWNLOAD CV</motion.button></a>
+                    Gulshan Kumar | MERN Stack <hr/>
+                        I am a proficient MERN Stack Developer with expertise in MongoDB, Express.js, React.js, and Node.js. 
+                        I specialize in building dynamic, responsive web applications. My passion for coding and attention 
+                        to detail ensures the delivery of robust, scalable to meet client needs. </p>
+                    <a href="https://app.luminpdf.com/viewer/65e84f6e780982105b2a6b14"> <motion.button className="text-sm" whileHover={{background:"white"}}>⏫DOWNLOAD CV</motion.button></a>
                 </div>
 
                 {/* development */}
@@ -35,7 +35,7 @@ const Skill = () => {
                     {/* ui/ux development */}
                     <div className="skills_data">
                         <div className="skills_titles">
-                            <h3 className='skills_name'>UI/UX Design</h3>
+                            <h3 className='skills_name'>Back-End Developer</h3>
                             <span className='skills_number'>95%</span>
                         </div>
 
@@ -48,7 +48,7 @@ const Skill = () => {
                     {/* react developer */}
                     <div className="skills_data">
                         <div className="skills_titles">
-                            <h3 className='skills_name'>JAVASCRIPT</h3>
+                            <h3 className='skills_name'>Node Js</h3>
                             <span className='skills_number'>90%</span>
                         </div>
 
@@ -61,7 +61,7 @@ const Skill = () => {
                     {/* react.js */}
                     <div className="skills_data">
                         <div className="skills_titles">
-                            <h3 className='skills_name'>React.Js</h3>
+                            <h3 className='skills_name'>MongoDB</h3>
                             <span className='skills_number'>85%</span>
                         </div>
 
@@ -73,8 +73,8 @@ const Skill = () => {
                     {/* MYSQL */}
                     <div className="skills_data">
                         <div className="skills_titles">
-                            <h3 className='skills_name'>MYSQL</h3>
-                            <span className='skills_number'>65%</span>
+                            <h3 className='skills_name'>Mern Stack  Developer</h3>
+                            <span className='skills_number'>90%</span>
                         </div>
 
                         <div className="skills_bar" >
