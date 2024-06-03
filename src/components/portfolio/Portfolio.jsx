@@ -13,23 +13,23 @@ const items = [
     },
     {
         id: 2,
-        title: "Sumit Mehendi Art",
+        title: "Sumit Mehendi",
         img: "/sumit1.jpg",
-        desc: "Welcome to Sumit Mehendi Art, where intricate designs meet skilled craftsmanship. Explore our gallery of mesmerizing henna creations, blending tradition with contemporary flair. From weddings to festivals, each design tells a unique story. Join us in celebrating the artistry of mehendi, where beauty knows no bounds.",
+        desc: "Welcome to Sumit Mehendi Art, where intricate designs meet skilled craftsmanship. Explore our gallery of mesmerizing henna creations, blending tradition with contemporary flair. From weddings to festivals, each design tells a unique story. Join us in celebrating the artistry of mehendi.",
 
     },
     {
         id: 3,
         title: "Gulshan Portfolio",
         img: "/self.jpg",
-        desc: "Welcome to Gulshan Portfolio, where innovation meets code. Dive into my world of programming prowess, where each line of code is crafted with precision and passion. Explore a showcase of projects demonstrating expertise in various languages and technologies. Let's bring your digital vision to life, one line at a time.",
+        desc: "Welcome to Gulshan Portfolio, where innovation meets code. Dive into my world of programming prowess, where each line of code is crafted with precision and passion. Explore a showcase of projects demonstrating expertise in various languages and technologies.",
 
     },
     {
         id: 4,
         title: "Need 24/7 Driver",
         img: "/web4.jpg",
-        desc: "Welcome to 'Need 24*7 Driver', your solution to temporary driving needs. Whether it's a last-minute trip or a long journey, we provide reliable drivers round the clock. Rest easy knowing your car is in capable hands. Contact us for professional, on-demand driving services, anytime, anywhere.",
+        desc: "Welcome to 'Need 24*7 Driver', your solution to temporary driving needs. Whether it's a last-minute trip or a long journey, we provide reliable drivers round the clock. Rest easy knowing your car is in capable hands. Contact us for professional, on-demand driving services, anytime.",
 
     },
 
@@ -55,8 +55,8 @@ const Single = ({ item }) => {
                     <div className="imgcontainer" ref={ref}>
                         <img src={item.img} alt=""  style={{objectFit:"cover"}}/>
                     </div>
-                    <motion.div className="textcontainer" style={{ y }}>
-                        <h2>{item.title}</h2>
+                    <motion.div className="textcontainer mt-12  " style={{ y }}>
+                        <h2 className="text-[15px] font-semibold">{item.title}</h2>
                         <p>{item.desc}</p>
                         <a href="https://github.com/gulshan8383"><motion.button whileHover={{background:"white", fontWeight:"bold",color:"black", fontFamily:"italic"}}>Infomation</motion.button></a>
                     </motion.div>
