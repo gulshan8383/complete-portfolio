@@ -58,37 +58,48 @@ const Services = () => {
                     </div>
             </motion.div> 
             <motion.div className="listcontainer">
-                <motion.div className="box" whileHover={{background:"lightgrey", color:"black"}}>
-                    <h2>FrontEnd</h2>
-                    <p>
-                    A front-end developer architects and develops websites and applications using web technologies
-                     (i.e., HTML, CSS, DOM, and JavaScript), which run on the Open Web Platform or act as compilation
-                      input for non-web platform environments 
+                <motion.div className="box mt-2
+                 hover:scale-110 transition duration-300 ease-in gap-3  rounded-xl 
+                 hover:shadow-[0px_20px_20px_10px_gray] text-center"
+                 whileHover={{background:"lightgrey", color:"black"}}>
+                    <h2 className="font-semibold">FrontEnd</h2>
+                    <p className="text-[14.5px]">
+                    Frontend developers create user interfaces and experiences for websites and applications
+                     using HTML, CSS, and JavaScript. They focus on responsiveness, performance, and design,
+                      ensuring seamless interaction and aesthetic appeal across devices and platforms
                     </p>
                  <a href="https://www.linkedin.com/in/gulshan-yadav-30a980175/"> <motion.button className="servicego" whileHover={{background:"white", fontWeight:"bold", color:"black"}}>Go</motion.button></a>
                 </motion.div>
-                <motion.div className="box" whileHover={{background:"lightgrey", color:"black"}}>
-                    <h2>React.JS</h2>
-                    <p>
-                    Hello views i'm gulshan yadav, i am create website using react.js if anyone need website then
-                     contact me. i'm starting my freelancing  work. i am sure you are happy to see my complete work.
-                     this site search engine optimization (seo)  also show on top,and we managing your website 3 motn
-                      free. then we are charge this site managment.
+                <motion.div className="box
+                hover:scale-110 transition duration-300 ease-in gap-3  rounded-xl 
+                hover:shadow-[0px_20px_20px_10px_gray] text-center"
+                whileHover={{background:"lightgrey", color:"black"}}>
+                    <h2 className="font-semibold">Mern-Stack </h2>
+                    <p className="text-[14.5px]">
+                    MERN backend developers specialize in creating server-side applications using MongoDB,
+                     Express.js, React, and Node.js. They handle database management, server logic, and API 
+                     integration, ensuring efficient, scalable, and secure backend operations.
                     </p>
                    <a href="https://sumitmehendiart.com/"> <motion.button whileHover={{background:"white", fontWeight:"bold", color:"black"}}>Go</motion.button></a>
                 </motion.div>
-                <motion.div className="box" whileHover={{background:"lightgrey", color:"black" }}>
-                    <h2>JavaScript</h2>
-                    <p>
-                    Hello views i'm gulshan yadav, i am create website using also JavaScript if anyone need website then
-                     contact me. i'm starting my freelancing  work. i am sure you are happy to see my complete work.
-                     this site search engine optimization (seo)  also show on top,and we managing your website 3 motn free. 
+                <motion.div className="box
+                hover:scale-110 transition duration-300 ease-in gap-3  rounded-xl 
+                hover:shadow-[0px_20px_20px_10px_gray] text-center"
+                 whileHover={{background:"lightgrey", color:"black" }}>
+                    <h2 className="font-semibold">Node.Js</h2>
+                    <p className="text-[14.5px]">
+                    Node.js developers build and maintain server-side applications using Node.js. 
+                    They handle backend logic, database integration, and API development, ensuring high
+                 performance and scalability. Proficient in JavaScript, they create efficient.
                     </p>
                     <a href="https://sumitmehendiart.com/"><motion.button whileHover={{background:"white", fontWeight:"bold", color:"black"}}>Go</motion.button></a>
                 </motion.div>
-                <motion.div className="box" whileHover={{background:"lightgrey", color:"black"}}>
-                    <h2>Github</h2>
-                    <p>
+                <motion.div className="box
+                hover:scale-110 transition duration-300 ease-in gap-3  rounded-xl 
+                hover:shadow-[0px_20px_20px_10px_gray] text-center"
+                 whileHover={{background:"lightgrey", color:"black"}}>
+                    <h2 className="font-semibold">Github</h2>
+                    <p className="text-[14.5px]">
                     GitHub is a web-based hosting service for Git repositories, such as those used to store
                      Microsoft Learn content. For any project, GitHub hosts the main repository, from which
                       contributors can make copies for their own work.This article defines key terms.
