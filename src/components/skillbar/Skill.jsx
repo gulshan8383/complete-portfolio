@@ -9,9 +9,11 @@ const Skill = () => {
             <div className="about_data grid">
                 <div className="about_info" >
                     <p className="about_desc">
-                        My name is Gulshan yadav. i'm from delhi (India). I'm Web UI/UX, Javascript, & ReactJS Developer,
-                        In Part time job i'm complete clients projects. Anyone Need websites then Contect me.
-                        In present time i'm learn Backend and Database servers. My future goal is i'm crete my startup hurryup. </p>
+                        Gulshan Kumar | MERN Stack Developer <br/>
+                        I am a skilled MERN Stack Developer with a strong background in building dynamic and 
+                        responsive web applications. Proficient in MongoDB, Express.js, React.js, and Node.js, 
+                        I excel at creating full-stack solutions that are both scalable and efficient. With a keen 
+                        eye for detail and a passion for coding, I deliver robust applications tailored to meet client needs. </p>
                     <a href="https://app.luminpdf.com/viewer/65e84f6e780982105b2a6b14"> <motion.button whileHover={{background:"white"}}>⏫DOWNLOAD CV</motion.button></a>
                 </div>
 
