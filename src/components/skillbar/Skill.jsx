@@ -5,11 +5,11 @@ import {motion} from "framer-motion";
 const Skill = () => {
     return (
         <section className='skill-container section' id='about'>
-            <h1 className='h1'>My Skills in Developer</h1>
+            <h1 className='h1'>My Skills in Software</h1>
             <div className="about_data grid">
                 <div className="about_info" >
                     <p className="about_desc">
-                        Gulshan Kumar | MERN Stack Developer <br/>
+                       <p className=""> Gulshan Kumar | MERN Stack Developer </p><br/>
                         I am a proficient MERN Stack Developer with expertise in MongoDB, Express.js, React.js, and Node.js.
                         I specialize in building dynamic, responsive web applications. My passion for coding and attention to 
                         detail ensures the delivery of robust, scalable solutions tailored to meet client needs. </p>
