@@ -46,7 +46,10 @@
       "last 1 safari version"
     ]
   },
-   "devDependencies": {
+    "devDependencies": {
     "tailwindcss": "^3.4.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
   }
 }
